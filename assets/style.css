@@ -1,0 +1,47 @@
+
+body{
+  background-image:url('../assets/35f12044-44ba-5d64-a3d2-4457facf69ab.jpg');
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+h1{
+color: aliceblue;
+ font-size: 3rem ;
+ text-align: center ;
+
+}
+.form{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  margin: 20px;
+  padding: 20px;
+  height: 30px;
+  width: 100%;
+  align-content: center;
+}
+
+  #container{
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+  align-content: center;
+}
+
+.topic{
+color: aliceblue ;
+text-align: center;
+font-size: 50px;
+
+
+  }
+input, select{
+  width: 150px;
+}
+  .selectObject{
+   
+  }
+  
+  #submitBtn{
+    background-color: rgb(68, 153, 172);
+  }
